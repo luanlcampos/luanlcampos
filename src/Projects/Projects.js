@@ -41,8 +41,8 @@ export default function Projects() {
 
           <Row className="project-row">
             {projects.map((project) => (
-              <Col xs={12} sm={12} md={12} lg={6} xl={4}>
-                <div className="project-image" onClick={handleShow(project)}>
+              <Col xs={12} sm={12} md={12} lg={6} xl={4} key={project.id}>
+                <div className="project-image" onClick={handleShow(project)} >
                   <img
                     src={project.image}
                     className="project-image-img"
