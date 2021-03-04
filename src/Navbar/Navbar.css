@@ -1,0 +1,88 @@
+.App-header {
+  min-height: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.navLink:visited {
+  color: white;
+}
+
+.navLink:active,
+.navbar-light .navbar-nav .nav-link.active {
+  color: white;
+}
+
+.navLink:hover {
+  
+  background-color: white;
+  color: black !important;
+}
+
+.nav {
+  background-color: transparent;
+}
+
+.nav.active {
+  background-color: rgb(172, 172, 172);
+}
+
+
+.nav-icon {
+    font-size: 50px;
+}
+
+.painting-background {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url("../public/jb-bg.jpg");
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0;
+  margin-bottom: 0px;
+}
+
+.jb-text {
+  font-size: 70pt;
+  margin: auto;
+  padding: 90px;
+  border: 1px solid;
+  animation: fadeIn ease 5s;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.learn-more {
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 5%;
+  font-weight: bold;
+  color: white;
+  min-height: 40px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .jb-text {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .jb-text {
+    font-size: 5em;
+  }
+}
