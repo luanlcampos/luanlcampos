@@ -55,7 +55,25 @@ footer {
 .footer-links  ul  li:hover, .footer-links  ul  a:hover {
   color: #000;
   text-decoration: none;
+}
 
+.footer-copyrights {
+  color: #fff;
+}
+
+
+@media only screen and (max-width: 576px) {
+  .footer-links  ul  li {
+    font-size: 1rem;
+  }
+
+  [class^="bi"] { 
+    width: 35px;
+    height: 35px;
+  }
+  .footer-copyrights {
+    font-size: 0.8rem;
+  }
 }
 
 

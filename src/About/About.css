@@ -30,7 +30,7 @@
 .profile-image {
     margin: auto;
     min-width: 200px;
-    height: auto !important;
+    height: 100%;
 }
 
 .about ul li {
@@ -81,6 +81,10 @@
 }
 
 @media only screen and (max-width: 576px) {
+    .about {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
     .skill-title { 
        font-size: 1.5em; 
     }
@@ -93,7 +97,7 @@
     }
     .profile-image {
         max-width: 300px;
-        height: auto !important;
+        height: 100%;
     }
  }
 /* 
