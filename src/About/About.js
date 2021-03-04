@@ -1,5 +1,5 @@
 import {useEffect} from 'react';
-import {  Row, Col, Image } from "react-bootstrap";
+import {  Row, Col} from "react-bootstrap";
 import psLogo from "../public/ps-logo.svg";
 import restAPILogo from "../public/rest-api.svg";
 
@@ -27,7 +27,7 @@ export default function About() {
         </Row>
         <Row className="about-row">
           <Col xs={12} sm={12} md={12} lg={3} className="profile"  data-aos="fade-in" data-aos-duration="3000"> 
-            <img className="profile-image" src="profile.jpg" alt="profile image" rounded />
+            <img className="profile-image" src="profile.jpg" alt="profile" />
           </Col>
           <Col xs={12} md={9} className="text-center m-col" style={{margin: '0 auto'}} data-aos="fade-in" data-aos-duration="3000">
             <Row className="skills">

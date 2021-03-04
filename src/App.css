@@ -64,12 +64,12 @@ footer {
 
 @media only screen and (max-width: 576px) {
   .footer-links  ul  li {
-    font-size: 1rem;
+    font-size: 0.5rem;
   }
 
   [class^="bi"] { 
-    width: 35px;
-    height: 35px;
+    width: 20px;
+    height: 20px;
   }
   .footer-copyrights {
     font-size: 0.8rem;
