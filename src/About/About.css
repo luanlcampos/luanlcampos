@@ -30,6 +30,7 @@
 .profile-image {
     margin: auto;
     min-width: 200px;
+    height: auto !important;
 }
 
 .about ul li {
@@ -78,7 +79,7 @@
     height: 100%;
     gap: 0;
 }
-/* 
+
 @media only screen and (max-width: 576px) {
     .skill-title { 
        font-size: 1.5em; 
@@ -91,7 +92,7 @@
         height: auto;
     }
  }
-
+/* 
 
  @media only screen and (max-width: 768px) {
     .skill-title { 

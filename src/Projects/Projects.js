@@ -34,9 +34,9 @@ export default function Projects() {
         <div className="project-list text-center">
           <div className="project-title">
             <h1 className="">Projects</h1>
-            <spam className="">
+            <span className="">
               Here are a few design projects I've worked on recently
-            </spam>
+            </span>
           </div>
 
           <Row className="project-row">
@@ -56,33 +56,6 @@ export default function Projects() {
               </Col>
             ))}
           </Row>
-{/* 
-          <CardDeck
-            style={{ margin: "auto", gap: "10px", borderRadius: "1rem" }}
-            md={6}
-          >
-            {projects.map((project) => (
-              <Card className="" onClick={handleShow(project)}>
-                <Card.Img
-                  src={project.image}
-                  style={{
-                    borderRadius: "1rem",
-                  }}
-                />
-                <div
-                  class="overlay"
-                  style={{
-                    borderRadius: "1rem",
-                  }}
-                >
-                  <div class="text">
-                    <h3>{project.name}</h3>
-                    <p>{project.keywords.join(", ")}</p>
-                  </div>
-                </div>
-              </Card>
-            ))}
-          </CardDeck> */}
           {project ? (
             <Modal
               show={show}
