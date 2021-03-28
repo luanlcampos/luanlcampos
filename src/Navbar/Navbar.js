@@ -26,7 +26,7 @@ export default function MyNav() {
               Projects
             </Nav.Link>
           </Nav>
-          <Nav className="ml-auto nlink mnlink">
+          <Nav className="ml-auto nlink mnlink header-social">
             <Nav.Link
               href="https://www.linkedin.com/in/luan-campos/"
               rel="noreferrer"

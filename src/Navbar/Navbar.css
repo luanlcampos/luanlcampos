@@ -17,9 +17,9 @@
   color: white;
 }
 
-.navLink:hover {
-  background-color: white;
-  color: black !important;
+.navLink:hover, .header-social:hover, .nav-link:hover, .navbar-brand:hover {
+  background-color: transparent;
+  color: rgb(201, 200, 200) !important;
 }
 
 .nav {
@@ -27,12 +27,17 @@
 }
 
 .nav.active {
-  background-color: rgb(172, 172, 172);
+  background-color: #161e29;
 }
 
 .nav-icon {
   font-size: 50px;
 }
+
+.nav-icon:hover {
+  color: rgb(201, 200, 200);
+}
+
 .custom-toggler.navbar-toggler {
   background-image: 
   url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(280, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
