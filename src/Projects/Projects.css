@@ -39,6 +39,7 @@
   position: relative;
 }
 
+
 .project-image-img {
   display: block;
   width: 100%;
@@ -76,4 +77,5 @@
 
 .img-overlay:hover {
   opacity: 1;
+  cursor: pointer;
 }
