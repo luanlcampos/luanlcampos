@@ -75,6 +75,7 @@ export default function Projects() {
               </Modal.Header>
 
               <Modal.Body>
+                
                 {/* <Carousel>
                   {project.description.map((e) => (
                     <Carousel.Item>
