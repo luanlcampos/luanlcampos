@@ -15,10 +15,8 @@
 
 .project-list {
   /* Center projects */
-  margin: auto; 
+  margin: auto;
 }
-
-
 
 /* Setting Modal */
 
@@ -33,12 +31,10 @@
   border-radius: 0.25rem;
 }
 
-
 /* Setting Project Images and Overlay */
 .project-image {
   position: relative;
 }
-
 
 .project-image-img {
   display: block;
@@ -48,7 +44,6 @@
 .project-row {
   row-gap: 10px;
 }
-
 
 .img-overlay {
   position: absolute;
