@@ -6,7 +6,6 @@ import {
   ListGroup,
   Row,
   Col,
-  Carousel,
 } from "react-bootstrap";
 
 import AOS from "aos";
