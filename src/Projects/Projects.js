@@ -70,20 +70,21 @@ export default function Projects() {
                   <h1>{project.name}</h1>
                 </div>
                 <div className="mod-subtitle">
-                  <a href={project.link}>
-                    <button className="link-button">
-                      <img
-                        src="link-icon.svg"
-                        style={{ width: "40px" }}
-                        alt="external link"
-                      />
-                      Visit the website
-                    </button>
-                  </a>
+
                 </div>
               </Modal.Header>
 
               <Modal.Body>
+                
+                {/* <Carousel>
+                  {project.description.map((e) => (
+                    <Carousel.Item>
+                      <Carousel.Caption>
+                        {e}
+                      </Carousel.Caption>
+                    </Carousel.Item>
+                  ))}
+                </Carousel> */}
                 <ListGroup
                   variant="flush"
                   style={{ backgroundColor: "transparent !important" }}
@@ -98,7 +99,10 @@ export default function Projects() {
                 </ListGroup>
               </Modal.Body>
               <Modal.Footer>
-                <Button variant="secondary" onClick={handleClose}>
+                <Button variant="secondary" href={project.link} style={{backgroundColor: "#000"}}>
+                  Visit the website
+                </Button>
+                <Button variant="secondary" onClick={handleClose} style={{backgroundColor: "#000"}}>
                   Close
                 </Button>
               </Modal.Footer>

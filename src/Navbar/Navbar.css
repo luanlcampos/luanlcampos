@@ -66,11 +66,22 @@
 
 .learn-more {
   margin: auto;
+}
+
+button.learn-more {
+  margin: auto;
+  padding: 15px;
   background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 5%;
   font-weight: bold;
+  border: 1px solid;
   color: white;
   min-height: 40px;
+}
+
+.learn-more:hover {
+  color: rgb(201, 200, 200) !important;
+  border: 1px solid rgb(201, 200, 200);
+  font-weight: bolder;
 }
 
 @keyframes fadeIn {

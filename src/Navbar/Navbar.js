@@ -15,7 +15,7 @@ export default function MyNav() {
   return (
     <header className="App-header" id="top">
       <Navbar className={navBar ? "nav active" : "nav"} fixed="top" expand="lg">
-        <Navbar.Brand href="#top">Luan</Navbar.Brand>
+        <Navbar.Brand href="#top"><span style={{color: "#999999"}}>{"<"}</span><span style={{color: "#00ff6e"}}>luanlcampos</span><span style={{color: "#999999"}}>{"/>"}</span></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav custom-toggler" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto nlink">
