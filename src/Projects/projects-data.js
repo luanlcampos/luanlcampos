@@ -1,6 +1,35 @@
 export const projects = [
   {
     id: 1,
+    name: "The Health Cast",
+    keywords: ["Firebase", "Next.js", "Tailwind", "React"],
+    description: [
+      "Developed a web application that contains a live stream, recorded videos and a community forum to inform users about healthcare topics",
+      "Utilized Firebase Auth to make a reliable and secure sign-in process and Firestore to store all users’ and admins’ data",
+      "Implemented a system where users can see and follow each other profiles to enable notifications and chat",
+      "Developed a notifications system that will be sent to all the user followers in some triggering actions such as starting a new live stream or creating a new forum thread",
+    ],
+    image: "thc-app.jpg",
+    link: "https://the-health-cast.vercel.app",
+  },
+  {
+    id: 2,
+    name: "Fragments",
+    keywords: ["AWS", "Docker", "Unit Testing", "Microservices", "RESTful API", "Node.js", "React", "CI/CD"],
+    description: [
+      "Developed a RESTful API and a Next.js web application to store files on the cloud",
+      "Utilized AWS Cognito to make a reliable and secure sign-in process",
+      "Implemented AWS S3 to store the files and Dynamo DB to store the file's metadata",
+      "Experienced the utilization of Docker to ensure that the application is fully executable and functional on any platform",
+      "Implemented a CI workflow with the unit and integration testing and built and pushed the image to Docker Hub",
+      "Created a CD workflow that builds and pushes the Docker image to AWS ECR and deploys the application to Elastic Beanstalk",
+      "Designed and developed a UI where users can register, log in, upload and manage files under their credentials. Users can delete and edit file content."
+    ],
+    image: "frag.jpg",
+    link: "https://github.com/luanlcampos/fragments",
+  },
+  {
+    id: 3,
     name: "New York Restaurants",
     keywords: ["REST API", "JavaScript", "Node.js", "MongoDB", "React"],
     description: [
@@ -14,7 +43,7 @@ export const projects = [
   },
 
   {
-    id: 2,
+    id: 4,
     name: "System Manager",
     keywords: [
       "Node.js",
@@ -34,7 +63,7 @@ export const projects = [
     link: "https://mysystemmanager.herokuapp.com/",
   },
   {
-    id: 3,
+    id: 5,
     name: "Pasta Chef",
     keywords: ["Node.js", "Express.js", "Handlebars.js", "MongoDB", "MVC"],
     description: [
