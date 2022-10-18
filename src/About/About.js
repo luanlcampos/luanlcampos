@@ -1,7 +1,6 @@
 import { useEffect } from 'react';
 import { Row, Col } from "react-bootstrap";
 import psLogo from "../public/ps-logo.svg";
-import restAPILogo from "../public/rest-api.svg";
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -19,70 +18,26 @@ export default function About() {
         <Row className="abt-title text-center" data-aos="fade-in" data-aos-duration="3000">
           <Col md={12} lg={12}>
             <h1 className="text-center">Who I Am</h1>
-            <p>
-              I am a Full Stack Developer Living in Toronto, ON. I have a
-              passion for Web Developing
-            </p>
+            <p>A little bit about myself</p>
           </Col>
         </Row>
         <Row className="about-row">
-          <Col xs={12} sm={12} md={12} lg={3} className="profile" data-aos="fade-in" data-aos-duration="3000">
-            <img className="profile-image" src="profile.jpg" alt="profile" />
+          <Col xs={12} sm={12} md={6} lg={3} className="profile flex items-center justify-center lg:justify-end" data-aos="fade-in" data-aos-duration="3000">
+            <img className="max-h-[300px] rounded-3xl mb-5 md:pb-0" src="profile.jpg" alt="profile" />
           </Col>
-          <Col xs={12} md={9} className="text-center m-col" style={{ margin: '0 auto' }} data-aos="fade-in" data-aos-duration="3000">
-            <Row className="skills">
-              <Col xs={12} lg={6} className="text-center mb-4 m-col2">
-                <div className="skill-title">Programming Languages</div>
+          <Col xs={12} sm={12} md={6} lg={9} className="h-full flex flex-col justify-center gap-y-3" data-aos="fade-in" data-aos-duration="3000">
+            <span>
+              I am a <strong className='text-xl'>Full Stack Developer </strong> Living in Stanford, CA. I have a
+              passion for <strong className='text-xl'>Web Development</strong>
+            </span>
 
-                <div className="lang-grid">
-                  <i className="devicon-cplusplus-plain-wordmark m-icon" title="C++" />
-                  <i className="devicon-java-plain m-icon" title="Java"></i>
-                  <i className="devicon-javascript-plain colored m-icon" title="JavaScript"></i>
-                  <i className="devicon-typescript-plain colored m-icon" title="TypeScript"></i>
-                  <i className="devicon-python-plain colored m-icon" title="Python"></i>
-                </div>
-              </Col>
-              <Col xs={12} lg={6} className="text-center mb-4 m-col2">
-                <div className="skill-title">Front-end Developer</div>
-                <div className="lang-grid">
-                  <i className="devicon-html5-plain-wordmark m-icon" title="HTML5"></i>
-                  <i className="devicon-css3-plain-wordmark m-icon" title="CSS3"></i>
-                  <i className="devicon-react-original m-icon" title="React"></i>
-                  <i className="devicon-angularjs-plain colored m-icon" title="Angular"></i>
-                  <i className="devicon-bootstrap-plain colored m-icon" title="Bootstrap"></i>
-                  <i className="devicon-materialui-plain colored m-icon" title="Material-UI"></i>
-                </div>
-              </Col>
-              <Col xs={12} lg={6} className="text-center mb-4 m-col2">
-                <div className="skill-title">Back-end Developer</div>
-                <div className="lang-grid">
-                  <i className="devicon-nodejs-plain m-icon" title="Node.js"></i>
-                  <i className="devicon-express-original colored m-icon" title="express.js"></i>
-                  <img
-                    src={restAPILogo}
-                    className="c-icon"
-                    alt="Rest API Logo"
-                    title="REST API"
-                  ></img>
-                  <i className="devicon-dot-net-plain-wordmark m-icon" title="Microsoft .NET"></i>
-                  <i className="devicon-jasmine-plain m-icon" title="Jasmine"></i>
-                </div>
-              </Col>
-              <Col xs={12} lg={6} className="text-center mb-4 m-col2">
-                <div className="skill-title">Dev Tools</div>
-                <div className="lang-grid">
-                  <i className="devicon-git-plain-wordmark m-icon" title="Git"></i>
-                  <i className="devicon-github-original m-icon" title="GitHub"></i>
-                  <i className="devicon-bash-plain colored m-icon" title="Bash"></i>
-                  <img
-                    src={psLogo}
-                    className="c-icon"
-                    alt="PowerShell Logo"
-                    title="PowerShell"
-                  ></img>
-                </div>
-              </Col>
-            </Row>
+            <span>
+              When I first interacted with a programming language during an introductory computer science course while studying Geology, I couldn't think about anything else. That's when I decided to go to Canada and start studying computer programming. While the new logic can be a bit challenging at the beginning, my passion for solving problems in different ways using the programming was increasing, and I could easily spend hours and hours finding the solutions to the issues.
+            </span>
+
+            <span>
+              I first fell in love with JavaScript for both front and back-end solutions, but in my job experience, I was introduced to Spring Boot and Sanic to build RESTful APIs in a microservices structure, which are powerful tools that increased my set of skills.
+            </span>
           </Col>
         </Row>
       </div>

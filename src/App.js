@@ -5,6 +5,8 @@ import MyNav from "./Navbar/Navbar";
 
 //Custom CSS
 import "./App.css";
+import Skills from "./Skills/Skills";
+
 
 
 function App() {
@@ -12,6 +14,7 @@ function App() {
     <div className="App">
       <MyNav />
       <About />
+      <Skills />
       <Projects id="projects" />
       <footer>
         <div className="footer-content">
