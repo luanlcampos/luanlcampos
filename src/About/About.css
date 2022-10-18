@@ -1,138 +1,51 @@
-@import url('https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css');
+@import url("https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css");
 
 .about {
-    width: 100%;
-    margin: 0 auto;
-    height: 100%;
-    /* height: 100vh; */
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    padding-top: 150px;
-    padding-bottom: 150px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  /* height: 100vh; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+  padding-bottom: 100px;
 }
 
 .abt-title {
-    margin: 0 auto;
-    width: 80%;
+  margin: 0 auto;
+  width: 80%;
 }
 
 .about-row {
-    margin: auto;
-    width: 80%;
+  margin: auto;
+  width: 80%;
 }
 
 .profile {
-    display: flex;
+  display: flex;
 }
 
 .profile-image {
-    margin: auto;
-    min-width: 200px;
-    height: auto;
+  margin: auto;
+  min-width: 200px;
+  height: auto;
 }
 
 .about ul li {
-    list-style: none;
-    margin: 0;
-}
-
-.lang-grid {
-    flex: 3;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: center;
-}
-
-.skill-title {
-    font-weight: bold;
-    font-size: 2em; 
-    flex: 1;
-    padding: 10px;
-}
-
-
-.m-col {
-    display: flex;
-    gap: 0;
-}
-
-/* Icon settings */
-.m-icon {
-    font-size: 70px;
-}
-
-.c-icon {
-    width: 70px;
-    height: auto;
-}
-
-.skills {
-    margin: 0 auto;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    align-content: center;
-    height: 100%;
-    gap: 0;
+  list-style: none;
+  margin: 0;
 }
 
 @media only screen and (max-width: 576px) {
-    .about {
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    .skill-title { 
-       font-size: 1.5em; 
-    }
-    .m-icon {
-        font-size: 40px;
-    }
-    .c-icon {
-        width: 40px;
-        height: auto;
-    }
-    .profile-image {
-        max-width: 300px;
-        height: auto;
-    }
- }
-/* 
+  .about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 
- @media only screen and (max-width: 768px) {
-    .skill-title { 
-       font-size: 2.4em; 
-    }
-    .m-icon {
-        font-size: 60px;
-    }
-
-    .c-icon {
-        width: 60px;
-        height: auto;
-    }
-
-    .about {
-        padding-bottom: 50px;
-        padding-top: 50px;
-    }
- }
- 
- @media only screen and (max-width: 1280px) {
-    .skill-title { 
-       font-size: 1.8em; 
-    }
-    .m-icon {
-        font-size: 45px;
-    }
-
-    .c-icon {
-        width: 45px;
-        height: auto;
-    }
-
- } */
-
+  .profile-image {
+    max-width: 300px;
+    height: auto;
+  }
+}

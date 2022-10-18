@@ -30,12 +30,12 @@ export default function Projects() {
   const [project, setProject] = useState(null);
   return (
     <>
-      <div className="projects" id="projects" data-aos="fade-in">
-        <div className="project-list text-center">
+      <div className="projects mb-24" id="projects" data-aos="fade-in">
+        <div className="project-list text-center pb-24">
           <div className="project-title">
             <h1 className="">Projects</h1>
             <span className="">
-              Here are a few design projects I've worked on recently
+              Here are a few projects I've worked on recently
             </span>
           </div>
 
@@ -75,16 +75,6 @@ export default function Projects() {
               </Modal.Header>
 
               <Modal.Body>
-                
-                {/* <Carousel>
-                  {project.description.map((e) => (
-                    <Carousel.Item>
-                      <Carousel.Caption>
-                        {e}
-                      </Carousel.Caption>
-                    </Carousel.Item>
-                  ))}
-                </Carousel> */}
                 <ListGroup
                   variant="flush"
                   style={{ backgroundColor: "transparent !important" }}
@@ -99,10 +89,10 @@ export default function Projects() {
                 </ListGroup>
               </Modal.Body>
               <Modal.Footer>
-                <Button variant="secondary" href={project.link} style={{backgroundColor: "#000"}}>
+                <Button variant="secondary" href={project.link} target="_blank" style={{ backgroundColor: "#000" }}>
                   Visit the website
                 </Button>
-                <Button variant="secondary" onClick={handleClose} style={{backgroundColor: "#000"}}>
+                <Button variant="secondary" onClick={handleClose} style={{ backgroundColor: "#000" }}>
                   Close
                 </Button>
               </Modal.Footer>
